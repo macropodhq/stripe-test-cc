@@ -1,0 +1,51 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  width: 500px;
+}
+
+.valid-cards {
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.card-brand {
+  padding-left: 80px;
+}
+.card-visa {
+  background: url('visa.png') left center no-repeat;
+}
+
+.card-mastercard {
+  background: url('mastercard.png') left center no-repeat;
+}
+
+.card-amex {
+  background: url('amex.png') left center no-repeat;
+}
+
+.card-discover {
+  background: url('discover.png') left center no-repeat;
+}
+
+.card-diners {
+  background: url('diners.png') left center no-repeat;
+}
+
+.card-jcb {
+  background: url('jcb.png') left center no-repeat;
+}
+
+.container {
+  display: flex;
+}
+
+.container > div {
+  margin-right: 100px;
+}
