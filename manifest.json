@@ -3,7 +3,7 @@
 
   "name": "Stripe testing tools",
   "description": "This extension shows a Google Image search result for the current page",
-  "version": "1.0",
+  "version": "1.1",
   "icons": {
     "128": "icon.png"
   },
