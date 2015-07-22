@@ -1,3 +1,5 @@
+"use strict";
+
 document.addEventListener('DOMContentLoaded', function() {
   var cards = [
     {type: 'valid', brand: 'visa', name: 'Visa', number: '4242424242424242' },
@@ -39,5 +41,5 @@ document.addEventListener('DOMContentLoaded', function() {
     li.appendChild(document.createElement('br'));
     li.appendChild(document.createTextNode(card.number));
     document.body.getElementsByClassName(card.type + "-cards")[0].appendChild(li);
-  })
+  });
 });
